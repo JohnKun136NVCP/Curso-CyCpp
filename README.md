@@ -7,7 +7,7 @@
 # Lenguaje de Programación C/C++.
 <p align="right">
 <img src = "https://i.pinimg.com/originals/8a/a6/4a/8aa64a89ebe0e4e76504f240cf528612.gif"
-    width = "180px"
+    width = "150px"
     align = "right"/>
 </p>
 
