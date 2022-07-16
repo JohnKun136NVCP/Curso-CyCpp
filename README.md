@@ -150,6 +150,7 @@ El temario de C++ es omitiendo la parte de básico y sería intermedio el temari
     width = "250px"
     align = "right">
 </p>
-Email: juanah.proteco@gmail.com
 
-Twitter:@JohnWilliamBn 
+**Email: juanah.proteco@gmail.com**
+
+**Twitter:@JohnWilliamBn** 
