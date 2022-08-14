@@ -413,8 +413,46 @@ Ver declaración de variables en el archivo **variables.c** en *scripts*.
 <br>
 <br>
 
+# Flujo estandar.
+Los flujos son canales de comunicación interconectados mediante los cuales los programas pueden interactuar con su entorno durante su ejecución.
+Hay tres tipos de flujos estándar:
+* Entrada estándar **(stdin)**, suele ser el teclado.
+* Salida estándar **(stdout)**, suele ser el monitor.
+* Error estándar **(stderr)**, también suele ser el monitor.
+
+Para leer un valor desde el teclado y almacenarlo en una variable durante la ejecución de un programa en C se utiliza la siguiente sintaxis:
+
+```c
+    scanf(“%<esp> ... %<esp>”, &<id1>,..., &<idn>);
+```
+Donde ```<esp>``` es un especificador de tipo y puede ser:
+
+<p align = "center">
+<img src = "img/entrada_std.png" align="center">
+</p>
+
+Para **imprimir el valor de una variable en pantalla** durante la ejecución de un programa en C se utiliza la siguiente sintaxis:
+
+```c
+    printf(“%<esp> ... %<esp>”, <id1>,..., <idn>);
+```
+Donde ```<esp>``` es un especificador de tipo y puede ser:
+
+<p align = "center">
+<img src = "img/impresion_std.png" align="center">
+</p>
+
+
+Además del especificador de tipo, la función **printf** acepta otros especificadores (por ejemplo de longitud y precisión) que ayudan a dar formato a las impresiones en pantalla.
+
+<p align = "center">
+<img src = "img/printf_std.png" align = "center">
+</p>
+
 # Operaciones.
 ## Asignacion.
+
+
 
 ## Aritméticos.
 ## Lógicos.
