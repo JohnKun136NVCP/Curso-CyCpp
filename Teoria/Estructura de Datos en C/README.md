@@ -1,5 +1,5 @@
 <p align="right">
-<img src ="img/C_Logo.png" width="30px" align="right">
+<img src ="img/C_Logo.png" width="45px" align="right">
 </p>
 
 # Estructura de Datos en C.
