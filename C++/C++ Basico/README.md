@@ -40,14 +40,11 @@ En el caso que no nos gusten los videojuegos otras aplicaciones que se han aplic
 ## FIN DE LA INTRODUCCIÓN.
 
 ```c++
-
 void funcionHola(string nombre,int edad){
     int tamano = nombre.length();
     cout<<"Tu nombre es: "<< nombre<<endl;
     cout<<"La longitud de nombre es: "<<tamano<<endl;
     cout<<"Tu edad es: "<<edad<<endl;
     cout<<"Hola, "<<nombre<<endl;
-}
-
- 
+} 
 ```
