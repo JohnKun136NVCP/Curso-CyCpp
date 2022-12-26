@@ -190,3 +190,5 @@ Bienvenidos al curso de lenguaje de programación C/C++. De parte los colaborado
 </p>
 
 **Email: juanah.proteco@gmail.com**
+
+**Telegram: @yoshimakayaba**
