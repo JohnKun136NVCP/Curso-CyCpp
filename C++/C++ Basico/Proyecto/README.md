@@ -49,7 +49,12 @@ Para los que no sepan que es una matriz es un conjunto de tamaño bidimensional 
 
 Ejemplo:
 
-$$A = \begin{pmatrix}2&5&0\\7&3&8\\3&0&1\end{pmatrix}$$
+
+$$A = \begin{pmatrix}
+        2 & 5 & 0 \\ 
+        7 & 3 & 8 \\
+        3 & 0 & 1
+       \end{pmatrix}$$
 
 Eso es una matriz. 
 
@@ -59,27 +64,106 @@ Esos numeritos dentro de esa cajita se pueden manipular, es decir, la matrices t
 
 - Suma y Resta (Si las matrices son cuadradas.)
     $$A + B = C$$
-    Donde $A,B,C$ son matrices. La suma se le conoce que es entrada por entrada. Ejemplo.
-    $$A = \begin{pmatrix}1&2\\3&4\end{pmatrix}$$
-    $$B = \begin{pmatrix}5&6\\7&8\end{pmatrix}$$
-    Entonces la suma que dará la matriz $C$ es:
-    $$C = \begin{pmatrix}6&8\\10&12\end{pmatrix} =\begin{pmatrix}1&2\\3&4\end{pmatrix} + \begin{pmatrix}5&6\\7&8\end{pmatrix} $$
-    Sería análogo a la resta.
+    Donde $A,B,C$ son matrices. La suma se le conoce que es entrada por entrada. Ejemplo:
+
+    
+$$A = \begin{pmatrix} 
+            1 & 2 \\
+            3 & 4 
+           \end{pmatrix}$$
+           
+$$B = \begin{pmatrix}
+        5&6\\ 
+        7&8
+       \end{pmatrix}$$
+
+   Entonces la suma que dará la matriz $C$ es:
+    
+$$C = \begin{pmatrix}
+        6&8\\
+        10&12
+      \end{pmatrix} =
+      \begin{pmatrix}
+        1&2\\
+        3&4
+      \end{pmatrix} + 
+      \begin{pmatrix}
+        5&6\\
+        7&8
+        \end{pmatrix} $$
+    
+  Sería análogo a la resta.
 - Producto por un escalar (un numerito), es decir que pasa esto, donde $\lambda$ (lambda) es numerito:
-    $$\lambda A= 2\cdot\begin{pmatrix}1&2\\3&4\end{pmatrix} = \begin{pmatrix}2&4\\6&8\end{pmatrix}$$
+
+
+$$\lambda A= 2\cdot\begin{pmatrix}
+                    1&2\\
+                    3&4
+                    \end{pmatrix} = 
+                    \begin{pmatrix}
+                        2&4\\
+                        6&8
+                    \end{pmatrix}$$
 
 - Producto de matrices. Digamos que aquí las cosas cambian un poco, ya que se pueden hacer con matrices cuadradas y algunas medio raras. Para estas es necesario que la matriz $B$ sus filas sean iguales a las columnas de la matriz $A$.
-    $$A = \begin{pmatrix}1&2\\3&4\end{pmatrix}$$
-    $$B = \begin{pmatrix}5\\7\end{pmatrix}$$
-    Entonces la matriz $A$ es de 2x2 y la $B$ es de 2x1. En este caso se puede efectuar la operación pero si fuera que $B$ 1x2 no se podría. Ahora ¿Cómo se puede hacer una operación? Dejaré un video detallado para que puedan observar como se haría.
+
+$$A = \begin{pmatrix}
+            1&2\\
+            3&4
+            \end{pmatrix}$$
+            
+$$B = \begin{pmatrix}
+        5\\
+        7
+        \end{pmatrix}$$
+
+$$C = \begin{pmatrix}
+        19\\
+        43
+      \end{pmatrix} =
+      \begin{pmatrix}
+        1&2\\
+        3&4
+      \end{pmatrix} \cdot
+      \begin{pmatrix}
+        5\\
+        7
+        \end{pmatrix} $$
+
+Entonces la matriz $A$ es de 2x2 y la $B$ es de 2x1. En este caso se puede efectuar la operación pero si fuera que $B$ 1x2 no se podría. Ahora ¿Cómo se puede hacer una operación? Dejaré un video detallado para que puedan observar como se haría. Algo más que es importante, ⚠️ la multiplicación **no** es conmutativa, es decir, que si multiplico $A\cdot B \not= B\cdot A$.
+
 [![Multiplicación de matrices](https://i.ytimg.com/vi/jyOmqlo9CNk/maxresdefault.jpg)](https://youtu.be/jyOmqlo9CNk)
 
 - Matríz transpuesta. En este caso es cambiar el orden de los cofactores. Es decir, si tenemos a $B$.
-    $$B = \begin{pmatrix}5\\7\end{pmatrix}$$
-    $$B^{T} = \begin{pmatrix}5&7\end{pmatrix}$$
-    En el caso de la matriz $A$.
-    $$A = \begin{pmatrix}1&2\\3&4\end{pmatrix}$$
-    $$A^{T} = \begin{pmatrix}1&3\\2&4\end{pmatrix}$$
+
+$$B = \begin{pmatrix}
+            5\\
+            7
+        \end{pmatrix}$$
+ 
+ $$B^{T} = \begin{pmatrix}
+            5&7
+            \end{pmatrix}$$
+            
+ En el caso de la matriz $A$.
+ 
+ $$A = \begin{pmatrix}
+            1&2\\
+            3&4
+        \end{pmatrix}$$
+ 
+ $$A^{T} = \begin{pmatrix}
+                1&3\\
+                2&4
+           \end{pmatrix}$$
+
+<p align="center">
+<img src = "https://upload.wikimedia.org/wikipedia/commons/e/e4/Matrix_transpose.gif"
+    width = ""
+    align = "center">
+</p>
+
+> *Wikipedia* Transpuesta de una matriz.
 
 ## Especifiaciones. 🔎
 
