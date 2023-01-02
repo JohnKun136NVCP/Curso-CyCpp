@@ -183,7 +183,7 @@ $$B = \begin{pmatrix}
 - Sobre los opcionales:
     - [Regla de Cramer](https://www.youtube.com/watch?v=lLPcHVAqY80): Utilizado para resolver sistemas de ecuaciones (Sí también se pueden representar de manera de matriz), en la cual tiene que dar la soluciones para $(x_{1},x_{2},...,x_{n})$ donde $x_{1},...,x_{n}$ son las incognitas de un sistema de ecuaciones de $n$ variables.
     > Puntos +1
-    - Solamente están permitidas aplicar *coseno, seno* ya que son funciones de valores reales y pueden evaluarla en todos los números.
+    - Solamente están permitidas aplicar *coseno, seno* ya que son funciones de valores reales y pueden evaluarla en todos los números y también usar *#include\<cmath\>* para hacer las operaciones correspondientes.
     > Puntos + 0.5
     - Los puntos extra es sobre calificación final del curso. Recuerden que para aprobar el curso es que tengan calficación mayor a 8 y que tengan el 80% de asistencia.
 ### Anuncio final.
