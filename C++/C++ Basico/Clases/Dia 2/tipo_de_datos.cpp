@@ -1,4 +1,5 @@
 #include <iostream> //Biblioteca estandard
+#include <string> //Biblioteca de Strings.
 
 using namespace std;//Usando namespace para quitar std
 
@@ -30,6 +31,18 @@ int main(int argc, char const *argv[])
     cout<<"Este es el caso especial con unsigned(valor correcto): "<<sin_signo<<endl;
     bool verdadero = true; //Valores booleanos true o false pero dara resultado 1 o 0
     cout<<"C++ es bien pro? "<<verdadero<<". Entonces es verdadero."<<endl;
+
+
+    //Valores de string.
+    /*
+        Por lo mientras veremos strings de la biblioteca que tiene C++.
+        Pero tambien veremos otras formas de meter cadenas de texto sin
+        la biblioteca.
+    */
+   string nombre = "john";
+   cout<<"Este es mi nombre: "<<nombre<<endl;
+
+
 
     return 0;
 }
