@@ -27,6 +27,19 @@ int main(int argc, char const *argv[])
     //Usando getline.
     printf("Ingrese su mes de nacimiento: ");
     getline(cin,mes); //Getline solamente es usado para strings.
+
+    //Flujo estandar en cin y cout.
+    int edad; float estatura;
+    cout<<"Dime tu edad y tu estatura: ";
+    cin>>edad>>estatura; // La lecutra se puede hacer una sola linea.
+    /*En el la ejecucion: Ejemplo:
+        Dime tu edad y tu estatura: 20 1.69
+    */
+    cout<<"Tu edad es: "<<edad<<". "<<"Tu estatura es: "<<estatura;
+    //Salida
+    // Tu edad es: 20. Tu estatura es: 1.69
+
+
     return 0;
 }
 
