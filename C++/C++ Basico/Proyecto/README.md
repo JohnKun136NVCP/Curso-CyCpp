@@ -25,6 +25,7 @@
 
 ### En caso de Github. 
 * Puede hacer un *folk* al repositorio y hacer un *Pull request**. Nada más con el *commit "Entrega C++ Proyecto* y con ello lo reviso.
+* Pueden entregar su proyecto donde dice en la carpeta entregas o crear una carpeta dentro de la misma con su nombre y su primer apellido.
 * También es valido si se quiere hacer un *folk* y mostrarme sus cambios en el repositorio que modificaron nada más enviando el enlace del **repositorio con el *folk* en su perfil de Github** en *classroom* y también lo revisaré el proyecto desde ahí.
 
 - Si les gustó el material del repositorio respositorio (no es obligatorio) pueden darle una ⭐.
