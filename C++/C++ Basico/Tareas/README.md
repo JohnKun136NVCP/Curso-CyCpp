@@ -1,6 +1,12 @@
 # Tareas 🗒️✍🏻
 Las tareas es programar basicamente con lo que se vio en clase, no son muy complejas, pero si surgen dudas de ellas pueden preguntar al inicio de la clase o con el contacto de los intructores que estamos. 
 
+Las entregas pueden por *classroom* o por *Github*.
+
+- Github. Mediante la carpeta llamada *Entregas* y hacer su entrega mediante un *Pull Request*.
+
+- Classroom. La entrega es mediante la asignación y nada más con el archivo *.cpp*.
+
 ## Tarea 1. 
 - Captura de tener instalado el compilador y correr desde consola o terminal el siguiente texto *hola tu_nombre*. Me refiero al nombre de ustedes.
 
