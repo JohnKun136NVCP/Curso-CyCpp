@@ -449,13 +449,39 @@ Además del especificador de tipo, la función **printf** acepta otros especific
 <img src = "img/printf_std.png" align = "center">
 </p>
 
-# Operaciones.
+# Operadores.
+Un operador es un elemento de programa que se aplica a uno o varios operandos en una expresión
+o instrucción. Los operadores que requieren un operando, como el operador de incremento se conocen como operadores unarios. Es decir, es un símbolo matemático que indica que se debe llevar a cabo una operación específica sobre un cierto número de operandos.
 ## Asignacion.
 
+Este tipo de operadores permiten la asiganación de un valor especifico a una variable. En C y C++ se encuentrar disponibles los siguientes operadores:
 
-
+|Operador|Accion               |Ejemplo  |Resultado |
+|:------:|:-------------------:|:-------:|:--------:|
+|    =   |Asignación Básica    |x = 6    | x vale 6 |
+|   *=   |Asignación Producto  |x *= 5   | x vale 30|
+|   /=   |Asignación División  |x /= 2   | x vale 3 |
+|   +=   |Asignación Suma      |x += 4   | x vale 10|
+|   -=   |Asignación Resta     |x -= 1   | x vale 5 |
+|   %=   |Asignación Básica    |x %= 5   | x vale 1 |
 ## Aritméticos.
+|Operador|Accion               |Sintaxis  |
+|:------:|:-------------------:|:-------:|
+|    +   |Suma dos operandos   |a + b;    |
+|    -   |Resta dos operandos  |a-b;   |
+|    *   |Multiplica dos operandos|a * b;|
+|    /   |Divide dos operandos  |a / b;|
+|    %   |Obtiene el residuo de una división de enteros|a % b;| 
+|   ++   |Incrementa uno al valor de un operando    |a++; ++a;|
+|   --   |Decrementa uno al valor de un operando    |a--; --a;|
+
 ## Lógicos.
+|Operador|Accion               |Sintaxis  |
+|:------:|:-------------------:|:-------:|
+|    &&  |Devuelve true sólo si a y b son true. (Conjunción lógica)  |a && b;|
+|   \| \|   |Devuelve true si a o b es true. (Disyunción lógica)  |a || b;   |
+|    !   |Niega el valor de la variable a. (Negación lógica)|!a;|
+
 ## Relacionales.
 ## Condicionales.
 
