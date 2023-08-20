@@ -479,7 +479,7 @@ Este tipo de operadores permiten la asiganación de un valor especifico a una va
 |Operador|Accion               |Sintaxis  |
 |:------:|:-------------------:|:-------:|
 |    &&  |Devuelve true sólo si a y b son true. (Conjunción lógica)  |a && b;|
-|   \| \|   |Devuelve true si a o b es true. (Disyunción lógica)  |a || b;   |
+|   \| \|   |Devuelve true si a o b es true. (Disyunción lógica)  |a \| \| b;   |
 |    !   |Niega el valor de la variable a. (Negación lógica)|!a;|
 
 ## Relacionales.
