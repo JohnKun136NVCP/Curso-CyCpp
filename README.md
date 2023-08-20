@@ -16,13 +16,29 @@ Bienvenidos al curso de lenguaje de programación C/C++. De parte los colaborado
 <br>
 <br>
 <br>
+
+
+
+
+# Evaluación para la generación 45 PROTECO.
+
+La evaluación estará conformada por 4 proyectos. Estos equivalente el 100% de su calificación.
+
+|No. Proyecto                    | Fecha de entrega | Modo|Valor|
+|:------------------------------:|:----------------:|:---:|:---:|
+|Tabla de operaciones aritméticas|27/08/2023| Individual|25%|
+|Calculadora de medidas de tendencia central y de dispersión sobre un conjunto arbitrario de datos|03/09/2023| Individual|25%|
+|Contador de frecuencias de palabras en un archivo de texto plano|10/09/2023|Parejas|25%|
+|Calculadora de matrices por línea de comandos|24/08/2023|Parejas|25%|
+
+
+**ACLARACIÓN:** *Si se llega a ver que copiaron código de sus demás compañeros se dividirá la calificación entre cada uno de los que copiaron, si por ejemplo se copiaron dos parejas o dos personas se dividirá la calificación del proyecto a la mitad, así hasta $n$ personas o parejas*
+
 <p align="right">
 <img src = "https://play-lh.googleusercontent.com/RLO14DKG8-tknas91100ht0mmVH9jVqqgoA0HIr1O_zMFATO-eF3tYT5MIC7yafvVH8=w240-h480-rw"
     width = "45px"
     align = "right">
-</p>
-
-
+</p> 
 
 # Temario para C📄.
 ## Semana 1. Básico.
