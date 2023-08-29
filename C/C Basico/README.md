@@ -372,6 +372,29 @@ Están conformadas por:
 
 > 1. El modificador unsigned agrega el rango de los negativos a la parte positiva, permitiendo almacenar únicamente números positivos.
 
+
+```c
+// Este programa declara y asigna valores a variable de diferentes tipos.
+
+#include <stdio.h>  //Incluyo biblioteca para manejo de flujos estándar.
+
+int main() {                    //Declaro mi función main. Indica el inicio de mi código.
+    char letra;                 //Declaro una variable tipo char con nombre letra.
+    short enterito;             //Declaro una variable tipo short con nombre enterito.
+    int entero = -2387426;      //Declaro una variable tipo int con nombre entero y guardo en ella el valor -2387426.
+    long long enterote = 234629372323;      //Declaro una variable tipo long con nombre enterote y guardo en ella el valor 234629372323.
+    float real = 1.9;                       //Declaro una variable tipo float con nombre real y guardo en ella el valor 1.9.
+    double super_real = -0.00000000000001;  //Declaro una variable tipo double con nombre super_real y guardo en ella el valor -0.00000000000001.
+
+    letra = 'x';        //Asigno en la variable "letra" el valor de la letra 'x'.
+    enterito = 1321;    //Asigno en la variable "enterito" el valor 1321.
+
+    return 0;           //Indico que aquí termina mi código.
+}
+```
+> Script *1_variables.c*
+
+
 # Declaración de variables.
 
 Para **declarar (crear)** una variable en C y C++ utilizamos la siguiente sintaxis:
@@ -408,6 +431,35 @@ más palabras, éstas se deben separar con guiones_bajos.
 de lo que almacenan.
 
 Ver declaración de variables en el archivo **variables.c** en *scripts*.
+
+
+```c
+// Declaracion de variables
+#include<stdio.h>
+
+int main()//Declaración de la funcion main al inicio del código
+{
+    short enterito; //Declaracion de tipo short con el nombre de enterito.
+
+    char letra; //Declaro la variable de tipo char con nombre de letra.
+    
+    int entero=-19984; // Declaro la variable de tipo entero con el nombre de entero con el valor de -19984.
+    
+    long long enterote = 234629372323;//Declaro una variable tipo long con nombre enterote y guardo en ella el valor 234629372323.
+    
+    float real = 2.85;//Declaro una variable tipo float con nombre real y guardo en ella el valor 2.85.
+    
+    double super_real = 4868468468561; //Declaro una variable tipo double con nombre super_real y guardo en ella el valor -0.4868468468561.
+
+    letra = 'y'; //Asigno en la variable "letra" el valor de la letra 'y'.
+    enterito = 145; //Asigno en la variable "enterito" el valor 145.
+
+    return 0;
+}
+
+```
+
+
 
 <br>
 <br>
@@ -449,6 +501,41 @@ Además del especificador de tipo, la función **printf** acepta otros especific
 <img src = "img/printf_std.png" align = "center">
 </p>
 
+```c
+/*  Este programa muestra el uso de los flujos estándar con scanf y printf para entrada y salida de datos.
+    Además, muestra el uso de algunos especificadores de tipo y de formato. */
+
+#include <stdio.h>      //Incluyo la biblioteca para manejo de flujos estándar.
+
+int main() {            //Declaro la función main. Indica el inicio de mi código.
+    char letra;                     //Declaro una variable tipo char llamada letra.
+    short enterito = 13;            //Declaro una variable tipo short llamada enterito y le asigno el valor 13.
+    double super_real = -0.0000001; //Declaro una variable tipo double llamada super_real y le asigno el valor -0.0000001.
+
+    printf("Escribe una letra y presiona enter: ");     //Imprimo instrucciones para el usuario.
+    scanf("%c", &letra);                                //Leo un char desde el teclado y guardo el valor en la variable "letra".
+    printf("Escribe un real y presiona enter: ");       //Imprimo instrucciones para el usuario.
+    scanf("%lf", &super_real);                          //Leo un double desde el teclado y guardo el valor en la variable "super_real".
+
+    printf("La letra que ingresaste es: %c.\n", letra);     //Imprimo el char que ingresó el usuario.
+    printf("El real que ingresaste es: %f.\n", super_real); //Imprimo el double que ingresó el usuario.
+
+    //A continuación imprimo variable utilizando diferenes especificadores de formato.
+    printf("El entero %5d\n", enterito);        //Imprimo la variable "enterito" utilizando 5 espacios.
+    printf("El entero %+5d\n", enterito);       //Imprimo la variable "enterito" utilizando 5 espacios y forzando la impresión del signo.
+    printf("El entero %+05d\n", enterito);      //Imprimo la variable "enterito" utilizando 5 espacios, forzando la impresión del signo y rellenando con ceros.
+    
+    printf("El real %7.2f.\n", super_real);     //Imprimo la variable "super_real" utilizando 7 espacios (dos de ellos para los decimales)
+    printf("El real %+7.2f.\n", super_real);    //Imprimo la variable "super_real" utilizando 7 espacios (dos de ellos para los decimales) y forzando la impresión del signo.
+    printf("El real %+-7.2f.\n", super_real);   //Imprimo la variable "super_real" empezando por la derecha, utilizando 7 espacios (2 de ellos para los decimales), forzando la impresión del signo, 
+
+
+    return 0;   //Indico que aquí termina mi código.
+}
+```
+> EyS_estandar.c
+
+
 # Operadores.
 Un operador es un elemento de programa que se aplica a uno o varios operandos en una expresión
 o instrucción. Los operadores que requieren un operando, como el operador de incremento se conocen como operadores unarios. Es decir, es un símbolo matemático que indica que se debe llevar a cabo una operación específica sobre un cierto número de operandos.
@@ -482,30 +569,223 @@ Este tipo de operadores permiten la asiganación de un valor especifico a una va
 |   \| \|   |Devuelve true si a o b es true. (Disyunción lógica)  |a \| \| b;   |
 |    !   |Niega el valor de la variable a. (Negación lógica)|!a;|
 
-## Relacionales.
-## Condicionales.
+Por ejemplo:
 
-# Entrada y salida estandar.
+```c
+// Este programa declara variables, obtiene sus valores y realiza operaciones con esos valores.
 
-## Impresion de datos con *print*.
-### Estilos.
+#include <stdio.h>  //Incluyo la biblioteca para manejo de flujos estándar.
 
-## Lectura de datos con *scanf*.
+int main() {
+    float operando1;           //Declaro una variable tipo float llamada operando1.
+    float operando2 = 23.5;    //Declaro una variable tipo float llamada operando2.
+    float resultado_suma;      //Declaro una variable tipo float llamada resultado_suma.
+
+    printf("Ingresa un numero: ");  //Imprimo instrucciones para el usuario.
+    scanf("%f", &operando1);        //Leo un valor tipo float y lo guardo en la variable operando1.
+    
+    resultado_suma = operando1 + operando2; //Almaceno la suma de operando1 y operando2 en resultado_suma.
+
+    //Imprimo el valor de cada operando y su suma, usando siempre 2 decimales.
+    printf("%.2f * %.2f es %.2f.\n", operando1, operando2, resultado_suma);
+
+    /*  Imprimo el valor de cada operando y su multiplicación, usando siempre 4 decimales.
+        Nótese que la multiplicación se hace en la misma línea de la impresión. */
+    printf("%.4f * %.4f es %.4f.\n", operando1, operando2, operando1*operando2);
+
+    return 0;   //Indico que aquí termina mi código.
+}
+```
 
 # Estructuras de control.
 
+### ¿Qué es una estructura de control?
+
+En los lenguajes de programación
+estructurados, las instrucciones del
+código fuente se ejecutan desde
+arriba hacia abajo.
+
+Las estructuras de control permiten
+modificar el flujo de ejecución de las
+instrucciones de un programa.
+
+<p align="center">
+    <img src = "https://www.ecured.cu/images/thumb/6/6f/Estructuras-de-control.jpg/260px-Estructuras-de-control.jpg">
+</p>
+
 ## Seleccion.
+De selección para elegir entre distintas posibilidades.
+
+## Iterativas
+Para repetir bloques de instrucciones.
 
 ### If.
+Evalúa una condición lógica y
+ejecuta el bloque de instrucciones
+que tiene asociado si ésta es
+verdadera.
 
 ### Else.
+Se puede encadenar después
+de un ***if*** para ejecutar otro bloque
+de instrucciones si la condición
+evaluada es falsa.
+
+### Sintaxis de if y else en C y C++.
+
+```c
+if (/*Expresion logica a evaluar*/){
+    /*Bloque de instrucciones a ejecutar si la expresión evaluada regresa true.*/
+
+}else{
+    /*Bloque de instrucciones a ejecutar si la expresión evaluada regresa false.*/
+}
+
+```
+
+
 
 ### If-else.
 
+Permite evaluar múltiples
+condiciones lógicas una tras otra y
+ejecutar las instrucciones asociadas
+a la primera que sea verdadera.
+
+Después de un **if**, se pueden
+encadenar tantos **else** **if** como
+sea necesario.
+
+Después del último **else** **if** puede
+ir un **else** para ejecutar un bloque
+de instrucciones si ninguna
+condición fue verdadera.
+
+<p align="center">
+    <img src = "https://www2.eii.uva.es/fund_inf/cpp/_images/if_else_if.jpg">
+</p>
+
+Sintaxis de **else if** en C y C++:
+
+```c
+if (/*primer expresión lógica a evaluar*/) {
+    /*Bloque de instrucciones a ejecutar si esta expresión evaluada regresa true.*/
+}
+else if (/*segunda expresión lógica a evaluar*/) {
+    /*Bloque de instrucciones a ejecutar si esta expresión evaluada regresa true.*/
+
+}
+//Se pueden poner tantos else if como se desee
+else {
+
+    /*Bloque de instrucciones a ejecutar si no se cumple ninguna de las expresiones anteriores.*/
+
+}
+```
+
+
+
 ## Repetición.
-### For.
-### While.
 ### Switch-case.
+<p align="center">
+    <img src = "https://www.researchgate.net/publication/318258675/figure/fig2/AS:652579319062529@1532598442205/Figura-18-Estructura-Condicional-SWITCH-CASE.png">
+</p>
+
+**switch case**. Permite evaluar una
+variable (no condicional) y ejecutar
+un bloque de instrucciones de
+acuerdo con su valor.
+
+Sintaxis de **switch-case** en C y C++:
+
+```c
+
+switch (/*variable a evaluar*/) {
+    case /*valor esperado 1*/:
+
+    /*Bloque de instrucciones a ejecutar si la variable tiene el valor esperado 1.*/
+        break;
+
+    //Se pueden poner tantos case como sea necesario.
+    case /*valor esperado n*/:
+
+    /*Bloque de instrucciones a ejecutar si la variable tiene el valor esperado n.*/
+        break;
+
+    default:
+
+    /*Bloque de instrucciones a ejecutar si la variable no tiene ninguno de los valores esperados.*/
+
+}
+```
+### While.
+
+<p align="center">
+    <img src = "https://www.researchgate.net/publication/313664762/figure/fig3/AS:461396619075585@1487016934061/Figura-32-Diagrama-de-Flujo-mostrando-un-ciclo-while.png" width = "200">
+</p>
+
+**while**. Permite repetir un bloque de
+instrucciones mientras una
+condición lógica sea verdadera.
+
+Es importante que alguna de las
+instrucciones del **while** cambie la
+condición a falso para evitar bucles
+infinitos.
+
+Sintaxis de **while** en C y C++:
+
+```c
+while (/*expresión lógica a evaluar*/) {
+    /*Bloque de instrucciones a ejecutar mientras se cumpla la expresión lógica.*/
+}
+```
+
+### do-while.
+
+<p align = "center">
+    <img src = "https://www2.eii.uva.es/fund_inf/cpp/_images/do_while.jpg" width = "200">
+</p>
+
+**do while**. Permite ejecutar un bloque de instrucciones una vez y luego repetirlo mientras una condición lógica sea verdadera.
+
+Sintaxis de **do-while** en C y C++:
+
+```c
+do {
+
+    /*Bloque de instrucciones a ejecutar una vez y a repetir mientras se cumpla la expresión lógica.*/
+
+} while (/*expresión lógica a evaluar*/);
+```
+
+### For.
+
+<p align="center">
+    <img src = "https://www2.eii.uva.es/fund_inf/cpp/_images/for.jpg" width = "200">
+</p>
+
+**for**. Permite ejecutar un bloque de instrucciones una cantidad predeterminada de
+veces o con base en una secuencia de números.
+
+Para utilizar un **for** es necesario utilizar una variable que lleve la cuenta de las iteraciones o el valor actual de la secuencia.
+
+Sintaxis de **for** en C y C++:
+
+```c
+int i;
+for (i = /*valor inicial*/;
+    /*condición de valor de i*/;
+    /*incremento o decremento de i (++i)*/) {
+    /*Bloque de instrucciones a ejecutar para todos los valores de i que cumplen la condición*/
+}
+```
+### Break y Continue
+
+Existe un par de palabras reservadas que sirven para modificar el flujo normal de una estructura iterativa.
++  **break**:  Sirve para interrumpir y terminar la ejecución normal de una estructura en determinado momento.
++ **continue**: Sirve para "saltarse" la iteración actual sin romper el ciclo.
 
 # Arreglos.
 
