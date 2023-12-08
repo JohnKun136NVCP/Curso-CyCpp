@@ -663,7 +663,7 @@ de instrucciones si ninguna
 condición fue verdadera.
 
 <p align="center">
-    <img src = "https://www2.eii.uva.es/fund_inf/cpp/_images/if_else_if.jpg">
+    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/If-Then-Else-diagram.svg/1049px-If-Then-Else-diagram.svg.png" width="200px">
 </p>
 
 Sintaxis de **else if** en C y C++:
@@ -722,7 +722,7 @@ switch (/*variable a evaluar*/) {
 ### While.
 
 <p align="center">
-    <img src = "https://www.researchgate.net/publication/313664762/figure/fig3/AS:461396619075585@1487016934061/Figura-32-Diagrama-de-Flujo-mostrando-un-ciclo-while.png" width = "200">
+    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/While-loop-diagram.svg/1200px-While-loop-diagram.svg.png" width = "200px">
 </p>
 
 **while**. Permite repetir un bloque de
@@ -745,7 +745,7 @@ while (/*expresión lógica a evaluar*/) {
 ### do-while.
 
 <p align = "center">
-    <img src = "https://www2.eii.uva.es/fund_inf/cpp/_images/do_while.jpg" width = "200">
+    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Do-while-loop-diagram.svg/1200px-Do-while-loop-diagram.svg.png" width = "200px">
 </p>
 
 **do while**. Permite ejecutar un bloque de instrucciones una vez y luego repetirlo mientras una condición lógica sea verdadera.
@@ -763,7 +763,7 @@ do {
 ### For.
 
 <p align="center">
-    <img src = "https://www2.eii.uva.es/fund_inf/cpp/_images/for.jpg" width = "200">
+    <img src = "https://upload.wikimedia.org/wikipedia/commons/d/d1/For-loop-diagram.svg" width = "200px">
 </p>
 
 **for**. Permite ejecutar un bloque de instrucciones una cantidad predeterminada de
