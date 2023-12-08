@@ -689,7 +689,7 @@ else {
 ## Repetición.
 ### Switch-case.
 <p align="center">
-    <img src = "https://www.researchgate.net/publication/318258675/figure/fig2/AS:652579319062529@1532598442205/Figura-18-Estructura-Condicional-SWITCH-CASE.png">
+    <img src = "https://media.geeksforgeeks.org/wp-content/uploads/20230224161406/switch-case-in-c.png" width="200px">
 </p>
 
 **switch case**. Permite evaluar una
